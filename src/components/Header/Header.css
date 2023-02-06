@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background-image: url('../../images/atractive.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-header{
+    color: #111111;
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+
+.container-header h2{
+    font-size: 1rem;
+    letter-spacing: 10px;
+}
+
+.container-header h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+
+@media(max-width: 768px){
+    .container-header h1 {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media (max-width:425px){
+    .container-header{
+        text-align: center !important;
+    }
+}

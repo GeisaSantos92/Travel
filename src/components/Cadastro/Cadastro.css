@@ -1,0 +1,141 @@
+.cadastro{
+    background: #D3E1E0;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20rem;
+}
+
+.container-cadastro{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-form{
+    border-radius: 70px;
+    background: white;
+    padding: 90px 35px;
+    width: 700px;
+    position: absolute;
+    top: 43%;
+    right: 27%;
+    -webkit-box-shadow: 0px 0px 6px -1px #000000; 
+    box-shadow: 0px 0px 6px -1px #000000;
+}
+
+.form-control{
+    border-radius: 10px !important;
+    height: 55px !important;
+    background-color: #D3E1E0 !important;
+    outline: none !important;
+}
+
+textarea.form-control {
+    min-height: 130px !important;
+}
+
+.btn-primary{
+    width: 100% !important;
+    height: 80px !important;
+    background-color: #F67B6F !important;
+    border: none !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+}
+
+.form-label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 1.3em
+}
+
+.container-form h1{
+    padding-bottom: 3rem;
+}
+
+
+.form-control:focus {
+    border: none!important;
+    outline: none !important;
+    box-shadow: none !important; 
+}
+
+
+.ok{
+    text-align: center;
+    font-size: 1.1rem !important;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+
+
+
+@media (max-width:1024px){
+    .cadastro{
+        padding-bottom: 6rem;
+    }
+    .container-cadastro{
+        gap: 2rem;
+    }
+    .container-form{
+        position: static;
+    }
+  
+}
+
+@media (max-width:640px){
+    .container-form {
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width:500px){
+.container-form {
+    max-width: 400px;
+}
+.ok{
+ 
+    font-size: .9rem;
+}
+
+}
+
+@media (max-width:375px){
+.container-form {
+    max-width: 318px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 1rem
+}
+
+.btn-primary {
+    font-size: 1.2rem !important;;
+}
+}
+
+@media (max-width:1700px){
+    .container-form {
+        right: 5%;
+       
+}
+}
+
+
+
+@media (min-width:426px) and (max-width:767px){
+.container-form {
+    width: 600px;
+}
+}
